@@ -1,0 +1,31 @@
+{
+  "name": "@leonardwoo/pikacss",
+  "version": "0.1.0",
+  "description": "A ",
+  "main": "pika.css",
+  "scripts": {
+    "compress": "postcss dist/*.css -d dist --ext min.css --no-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardwoo/pikacss.git"
+  },
+  "files": [
+    "pika-normalize.css"
+  ],
+  "keywords": [
+    "css",
+    "web"
+  ],
+  "author": "Leonard Woo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonardwoo/pikacss/issues"
+  },
+  "homepage": "https://github.com/leonardwoo/pikacss#readme",
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0"
+  }
+}
