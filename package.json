@@ -1,17 +1,17 @@
 {
   "name": "@leonardwoo/pikacss",
   "version": "0.1.0",
-  "description": "A ",
+  "description": "A utility-first framework packed",
   "main": "pika.css",
   "scripts": {
-    "compress": "postcss dist/*.css -d dist --ext min.css --no-map"
+    "compress": "postcss pikacss-normalize.css > dist/pikacss-normalize.min.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leonardwoo/pikacss.git"
   },
   "files": [
-    "pika-normalize.css"
+    "pikacss-normalize.css"
   ],
   "keywords": [
     "css",
